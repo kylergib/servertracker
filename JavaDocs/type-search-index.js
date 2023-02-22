@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.kyle.utility","l":"BetQuery"},{"p":"com.kyle.model","l":"ClientHandler"},{"p":"com.kyle.model","l":"Config"},{"p":"com.kyle.utility","l":"DBConnection"},{"p":"com.kyle","l":"Main"},{"p":"com.kyle.model","l":"Server"}];updateSearchResults();
