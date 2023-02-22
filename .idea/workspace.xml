@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f677f4a-eb03-47b9-9266-7b2b82887d46" name="Changes" comment="init4">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/ClientHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/Config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/Server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/BetQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/DBConnection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDocs/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/utility/BetQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/utility/DBConnection.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LRKhvaH7KUNGuHyewFM4rzD8hw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kyle/KamiCloud/Documents/Java/server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.35632184&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/kyle/secure" />
+      <recent name="$PROJECT_DIR$/../clientTracker/src/main/java/com/kyle/clientTracker/secure" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/kyle/view" />
+      <recent name="$PROJECT_DIR$/../clientTracker/src/main/java/com/kyle/clientTracker/view" />
+      <recent name="$PROJECT_DIR$/../clientTracker/src/main/resources/com/kyle/clientTracker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kyle.model" />
+      <recent name="com.kyle.clientTracker.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main - server">
+    <configuration name="main - client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kyle.clientTracker.Main" />
+      <module name="clientTracker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main - server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kyle.Main" />
+      <module name="server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main - server" />
+      <item itemvalue="Application.main - client" />
+      <item itemvalue="Java Scratch.Scratch" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f677f4a-eb03-47b9-9266-7b2b82887d46" name="Changes" comment="" />
+      <created>1675828579213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675828579213</updated>
+      <workItem from="1675828580440" duration="2607000" />
+      <workItem from="1675876903882" duration="12660000" />
+      <workItem from="1675905659163" duration="2175000" />
+      <workItem from="1675960081376" duration="16932000" />
+      <workItem from="1675989507152" duration="2990000" />
+      <workItem from="1676024233009" duration="10406000" />
+      <workItem from="1676041183462" duration="14846000" />
+      <workItem from="1676086075131" duration="10689000" />
+      <workItem from="1676154289285" duration="949000" />
+      <workItem from="1676155260389" duration="9438000" />
+      <workItem from="1676395130528" duration="9506000" />
+      <workItem from="1676404987381" duration="42000" />
+      <workItem from="1676405031839" duration="1646000" />
+      <workItem from="1676406691876" duration="1399000" />
+      <workItem from="1676408104663" duration="3534000" />
+      <workItem from="1676420745442" duration="5490000" />
+      <workItem from="1676480039724" duration="3036000" />
+      <workItem from="1676502980361" duration="1241000" />
+      <workItem from="1676557814331" duration="3171000" />
+      <workItem from="1676575294314" duration="4685000" />
+      <workItem from="1676651852263" duration="610000" />
+      <workItem from="1676662094534" duration="598000" />
+      <workItem from="1676692114648" duration="5790000" />
+      <workItem from="1676796508779" duration="1311000" />
+      <workItem from="1676908381219" duration="598000" />
+      <workItem from="1676944236036" duration="131000" />
+      <workItem from="1676994676578" duration="2886000" />
+      <workItem from="1677014404252" duration="442000" />
+      <workItem from="1677025081365" duration="53000" />
+      <workItem from="1677025160836" duration="232000" />
+      <workItem from="1677025446623" duration="54000" />
+      <workItem from="1677025503599" duration="1143000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1677013487464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677013487464</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1677013587486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677013587486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <created>1677013963150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677013963150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test2">
+      <created>1677013970804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677013970804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init2">
+      <created>1677014066556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677014066556</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init3">
+      <created>1677014460034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677014460034</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init4">
+      <created>1677014509988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677014509988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="init2" />
+    <MESSAGE value="init3" />
+    <MESSAGE value="init4" />
+    <option name="LAST_COMMIT_MESSAGE" value="init4" />
+  </component>
+</project>
