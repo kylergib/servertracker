@@ -9,23 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f677f4a-eb03-47b9-9266-7b2b82887d46" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/model/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/model/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/model/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/utility/BetQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/utility/BetQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/model/ClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/JavaTLSServerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/model/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/ServerNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/BetQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/utility/BetQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/utility/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/PasswordHashing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/Salt.class" beforeDir="false" />
-    </list>
+    <list default="true" id="2f677f4a-eb03-47b9-9266-7b2b82887d46" name="Changes" comment="fixed an issue that did not allow to edit a bet properly if it had been added without restarting the app." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +157,7 @@
       <workItem from="1677083001357" duration="597000" />
       <workItem from="1677101423555" duration="314000" />
       <workItem from="1677107524546" duration="11000" />
-      <workItem from="1677211735381" duration="6754000" />
+      <workItem from="1677211735381" duration="7110000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1677013487464</created>
@@ -238,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677030572281</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed an issue that did not allow to edit a bet properly if it had been added without restarting the app.">
+      <created>1677219633137</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677219633137</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +253,7 @@
     <MESSAGE value="init3" />
     <MESSAGE value="init4" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="fixed an issue that did not allow to edit a bet properly if it had been added without restarting the app." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed an issue that did not allow to edit a bet properly if it had been added without restarting the app." />
   </component>
 </project>
