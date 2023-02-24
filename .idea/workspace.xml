@@ -9,63 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f677f4a-eb03-47b9-9266-7b2b82887d46" name="Changes" comment="init4">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/ClientHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/Config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/Server.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/model/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/BetQuery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/DBConnection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/com/kyle/utility/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDocs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/utility/BetQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kyle/utility/DBConnection.java" afterDir="false" />
+    <list default="true" id="2f677f4a-eb03-47b9-9266-7b2b82887d46" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/model/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/model/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/model/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/model/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyle/utility/BetQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyle/utility/BetQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/model/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/JavaTLSServerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/model/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/model/ServerNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/BetQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/utility/BetQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kyle/utility/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/PasswordHashing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kyle/utility/Salt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +169,11 @@
       <workItem from="1677025081365" duration="53000" />
       <workItem from="1677025160836" duration="232000" />
       <workItem from="1677025446623" duration="54000" />
-      <workItem from="1677025503599" duration="1143000" />
+      <workItem from="1677025503599" duration="3582000" />
+      <workItem from="1677083001357" duration="597000" />
+      <workItem from="1677101423555" duration="314000" />
+      <workItem from="1677107524546" duration="11000" />
+      <workItem from="1677211735381" duration="6754000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1677013487464</created>
@@ -261,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677014509988</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1677029542023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677029542023</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1677030572281</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677030572281</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,12 +256,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
     <MESSAGE value="init2" />
     <MESSAGE value="init3" />
     <MESSAGE value="init4" />
-    <option name="LAST_COMMIT_MESSAGE" value="init4" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

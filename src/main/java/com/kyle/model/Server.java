@@ -19,7 +19,8 @@ public class Server {
 
 
         KeyStore keyStore = KeyStore.getInstance("JKS");
-        FileInputStream fis = new FileInputStream("/app/serverKeyStore.jks");
+//        FileInputStream fis = new FileInputStream("/app/serverKeyStore.jks");
+        FileInputStream fis = new FileInputStream("src/main/java/com/kyle/secure/serverKeyStore.jks");
         keyStore.load(fis, Config.getServerPassword().toCharArray());
 
         KeyManagerFactory keyManagerFactory = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());

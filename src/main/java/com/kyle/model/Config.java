@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public abstract class Config {
-    private static final String CONFIG_FILE = "config.properties";
+    private static final String CONFIG_FILE = "/config.properties";
     private static InputStream input = Main.class.getResourceAsStream(CONFIG_FILE);
     private static Properties props = new Properties();
 

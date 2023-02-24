@@ -121,6 +121,7 @@ public class BetQuery implements Serializable {
     public static int insert(Bet bet) throws SQLException {
         String sql = "INSERT INTO bets (Sportsbook, Date, Legs, Odds, Status, Stake, Profit, Tags, Free_Bet_Stake, Free_Bet_Won, Ev_Percent, Expected_Profit, Free_Bet_Received) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
         PreparedStatement ps = DBConnection.connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+        ps.setFetchSize(Integer.MIN_VALUE);
         ps.setString(1,bet.getSportsbook());
         ps.setTimestamp(2, bet.getDate());
         ps.setString(3, bet.getLegs());
@@ -149,25 +150,42 @@ public class BetQuery implements Serializable {
         return -200;
     }
     public static int update(Bet bet) throws SQLException {
-        String sql = "UPDATE bets SET Sportsbook = ?, Date = ?, Legs = ?, Odds = ?, Status = ?, Stake = ?, Profit = ?, Tags = ?, Free_Bet_Stake = ?, Free_Bet_Won = ?, Ev_Percent = ?, Expected_Profit = ?, Free_Bet_Received = ? WHERE Bet_ID = ?";
+        System.out.println("CHECK IF VALID: " + DBConnection.connection.isValid(30));
+//        String sql = "UPDATE bets SET Sportsbook = ?, Date = ?, Legs = ?, Odds = ?, Status = ?, Stake = ?, Profit = ?, Tags = ?, Free_Bet_Stake = ?, Free_Bet_Won = ?, Ev_Percent = ?, Expected_Profit = ?, Free_Bet_Received = ? WHERE Bet_ID = ?";
+        String sql = "UPDATE bets SET Sportsbook = ? WHERE Bet_ID = ?";
         PreparedStatement ps = DBConnection.connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+        ps.setFetchSize(Integer.MIN_VALUE);
+        System.out.println("SPRTOSBOOK TO SET: " + bet.getSportsbook());
         ps.setString(1,bet.getSportsbook());
-        ps.setTimestamp(2, bet.getDate());
-        ps.setString(3, bet.getLegs());
-        ps.setInt(4, bet.getOdds());
-        ps.setString(5, bet.getStatus());
-        ps.setDouble(6, bet.getStake());
-        ps.setDouble(7, bet.getProfit());
-        ps.setString(8, bet.getTags());
-        ps.setDouble(9, bet.getFreeBetStake());
-        ps.setDouble(10, bet.getFreeBetWon());
-        ps.setDouble(11, bet.getEvPercent());
-        ps.setDouble(12, bet.getExpectedProfit());
-        ps.setInt(13, bet.getFreeBetReceived());
-        ps.setInt(14, bet.getBetId());
+//        ps.setTimestamp(2, bet.getDate());
+//        ps.setString(3, bet.getLegs());
+//        ps.setInt(4, bet.getOdds());
+//        ps.setString(5, bet.getStatus());
+//        ps.setDouble(6, bet.getStake());
+//        ps.setDouble(7, bet.getProfit());
+//        ps.setString(8, bet.getTags());
+//        ps.setDouble(9, bet.getFreeBetStake());
+//        ps.setDouble(10, bet.getFreeBetWon());
+//        ps.setDouble(11, bet.getEvPercent());
+//        ps.setDouble(12, bet.getExpectedProfit());
+//        ps.setInt(13, bet.getFreeBetReceived());
+//        ps.setInt(14, bet.getBetId());
+        ps.setInt(2, bet.getBetId());
+        System.out.println(bet.getBetId() + " THIS IS BET ID TJAT IS BEING UPDATED");
         int rowsAffected = ps.executeUpdate();
+//        return rowsAffected;
+        if (rowsAffected > 0) {
+            ResultSet rs = ps.getGeneratedKeys();
+            if (rs.next()) {
+                int primaryKey = rs.getInt(1); // assuming that the primary key column is an integer
+                System.out.println("Primary key of updated row: " + primaryKey);
+                return rowsAffected;
+            }
+        }
+
         return rowsAffected;
     }
+
 }
 
 
